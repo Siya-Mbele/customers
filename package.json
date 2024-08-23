@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-mysql-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "express-async-errors",
+    "express-async-errors": "^3.1.1",
+    "ig": "^0.0.5",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4"
+  }
+}

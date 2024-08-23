@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "type": "chrome",
+            "name": "http://localhost:3000/api/customers",
+            "request": "launch",
+            "url": "http://localhost:3000/api/customers"
+        },
+
+        {
+            "type": "chrome",
+            "name": "http://localhost:3000/api/employees",
+            "request": "launch",
+            "url": "http://localhost:3000/api/employees"
+        }
+    ]
+}
